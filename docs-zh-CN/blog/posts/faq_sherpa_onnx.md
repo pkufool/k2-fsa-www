@@ -17,3 +17,7 @@ slug: sherpa_onnx_faq
   3. 去https://github.com/k2-fsa/sherpa-onnx/releases/tag/v1.10.30 （v1.10.30是版本号，建议找最新的）下载我们提供的编译好的 gpu 版本的 sherpa-onnx 的 .so 文件. 比如，你用 linux x64, 那么，就是  https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.10.30/sherpa-onnx-v1.10.30-linux-x64-gpu.tar.bz2
   4. 用 第3步中得到的 .so 文件，替换掉 第二步中的 .so 文件
 
+### Windows 乱码怎么解决
+
+1. 使用 windows 自带的 cmd 工具，不要使用 powershell
+2. 在命令行执行 `CHCP 65001`
